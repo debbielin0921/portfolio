@@ -1,0 +1,115 @@
+.label{
+  width: 114px;
+  height: 114px;
+  color: #707070;
+  font-size: 45px;
+  text-align: center;
+  line-height: 114px;
+  border: solid #707070 3px;
+  border-radius: 114px;
+}
+
+article{
+  width: 348px;
+  padding: 10px;
+}
+article h1{
+  font-size: 18pt;
+}
+article p{
+  margin : 18px 0;
+  line-height: 15pt;
+}
+
+.mone{
+  width: 80px;
+  height: 28px;
+  background:url(../img/mone.svg) #C6CFD4 center no-repeat;
+}
+.mone a{
+  font-size: 10pt;
+  color: #707070;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+/*平面設計section位置*/
+#section01{
+  width: 78%;
+  height: 378px;
+  background-color: #F4F4F4;
+  margin: 100px 0;
+  position: relative;
+}
+#section01>.label{
+  position: absolute;
+  left: 106%;
+  top: 66px;
+}
+#section01>img{
+  position: absolute;
+  left: 20%;
+  top: 84px;
+  transform: rotate(-7deg);
+  border: 1px solid red;/**/
+
+}
+#section01>article{
+  position: absolute;
+  left: 54%;
+  top: 112px;
+}
+/*網頁設計section位置*/
+#section02{
+  width: 100%;
+  height: 348px;
+  background-color: #F4F4F4;
+  margin: 200px 0;
+  position: relative;
+}
+#section02>.label{
+  position: absolute;
+  left: 8%;
+  top: 16px;
+}
+#section02>img{
+  position: absolute;
+  left: 54%;
+  top: 40px;
+  transform: rotate(7deg);
+  border: 1px solid red;/**/
+
+}
+#section02>article{
+  position: absolute;
+  left: 20%;
+  top: 64px;
+}
+/*cis section位置*/
+#section03{
+  width: 70%;
+  height: 348px;
+  background-color: #F4F4F4;
+  margin: 360px 0 100px;
+  position: relative;
+  left: 30%;
+}
+#section03>.label{
+  position: absolute;
+  left: 77%;
+  top: -72px;
+}
+#section03>img{
+  position: absolute;
+  left: -18%;
+  top: -140px;
+  transform: rotate(-7deg);
+  border: 1px solid red;/**/
+
+}
+#section03>article{
+  position: absolute;
+  left: 20%;
+  top: -116px;
+}

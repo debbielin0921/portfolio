@@ -1,0 +1,61 @@
+body{
+  font-family: 微軟正黑體;
+  position: absolute;
+}
+nav{
+  padding: 20px;
+}
+nav img{
+  margin: 0 50px 0 30px;
+  padding: 0;
+}
+nav ul{
+  display: inline-block;
+}
+nav ul li{
+  height: 38px;
+  position: relative;
+  white-space: nowrap;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: #707070;
+  text-decoration: none;
+  line-height: 38px;
+  min-width: 40px;
+  margin: 0px 10px;/**/
+}
+nav ul li a:hover {
+  font-size: large;/**/
+  color: #99B1BF;
+  border-bottom: 2px solid #99B1BF;
+}
+nav ul ul{
+  position: absolute;
+  z-index: 99;
+  left: -1px;
+  top: 100%;
+  background: #ffffffee;
+  display: none;/*隱藏次選單*/
+}
+nav ul li:hover > ul { /* 滑鼠滑入展開次選單*/
+  display: block;
+}
+
+header{
+  width: 100%;
+  overflow: hidden;
+ 
+}
+
+footer{
+  position: relative;
+  background: #E4E1DC;
+  padding: 50px;
+}
+footer p{
+  display: inline;
+  margin-left: 50px;
+  
+}

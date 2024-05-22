@@ -1,0 +1,70 @@
+section{
+  width: 56%;
+  height: 230px;
+  position: relative;
+  background-color: #F4F4F4;
+  /*border: 1px solid red;*/
+}
+section:nth-child(odd){
+  top: 400px;
+}
+section:nth-child(odd) > img{
+  position: absolute;
+  left: 20%;
+  top: -300px;
+  border: 1px solid red;/**/
+}
+section:nth-child(odd) > article{
+  position: absolute;
+  left: 70%;
+  top: -200px;
+}
+
+section:nth-child(even){
+  top: 400px;
+  left: 44%;
+  margin: 320px 0;
+
+}
+section:nth-child(even) > img{
+  position: absolute;
+  left: 20%;
+  top: -300px;
+  border: 1px solid yellow;/**/
+}
+section:nth-child(even) > article{
+  position: absolute;
+  left: -50%;
+  top: -200px;
+}
+
+
+article{
+  width: 348px;
+  padding: 10px;
+}
+article h1{
+  font-size: 18pt;
+}
+article p{
+  margin : 18px 0;
+  line-height: 15pt;
+}
+
+.mone{
+  width: 80px;
+  height: 28px;
+  background:url(../img/mone.svg) #C6CFD4 center no-repeat;
+}
+.mone a{
+  font-size: 10pt;
+  color: #707070;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+footer{
+  position: relative;
+  top: 600px;
+}
